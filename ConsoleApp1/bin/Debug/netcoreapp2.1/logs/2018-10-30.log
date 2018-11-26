@@ -1,0 +1,4 @@
+2018-10-30 09:47:04.6243|ERROR|Error in menurun method|System.Exception: Length must be not null!
+   at ConsoleApp1.Actions.AddUser.MenuRun(Int32 keyboard) in C:\Users\Acer\source\repos\ConsoleApp1\ConsoleApp1\Actions\AddUser.cs:line 27
+2018-10-30 11:17:25.6630|ERROR|Error in menurun method|System.Exception: Length must be not null!
+   at ConsoleApp1.Actions.AddUser.MenuRun(Int32 keyboard) in C:\Users\Acer\source\repos\ConsoleApp1\ConsoleApp1\Actions\AddUser.cs:line 27
