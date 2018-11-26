@@ -24,22 +24,19 @@ namespace ConsoleApp1
 
             List<User> users = new List<User>();
             users.Add(new User("Марсик", "324-978"));
+            users.Add(new User("Густав", "02"));
+            users.Add(new User("Тимоша", "324-978"));
 
             Menu mainMenu = new Menu("Основное меню");
 
 
             mainMenu.AddEl(new ElMenu("Список пользователей",new PrintUsers(users)));
-            
-
-
 
             mainMenu.AddEl(new ElMenu("Данные пользователя", new ShowUser(users)));
 
-
-
             mainMenu.AddEl(new ElMenu("Удалить пользователя", new RemoveUser(users)));
-            mainMenu.AddEl(new ElMenu("Добавить пользователя", new AddUser(users)));
 
+            mainMenu.AddEl(new ElMenu("Добавить пользователя", new AddUser(users)));
 
 
             mainMenu.MenuRun(0);
