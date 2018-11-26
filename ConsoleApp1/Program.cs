@@ -26,6 +26,9 @@ namespace ConsoleApp1
             users.Add(new User("Марсик", "324-978"));
             users.Add(new User("Густав", "02"));
             users.Add(new User("Тимоша", "324-978"));
+            users.Add(new User("Марсик", "324-978"));
+            users.Add(new User("Густав", "02"));
+            users.Add(new User("Тимоша", "324-978"));
 
             Menu mainMenu = new Menu("Основное меню");
 
